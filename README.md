@@ -1,5 +1,7 @@
 # Reverse Proxy with Caching
 
+[Project URL](https://github.com/Learnobug/CacheProxy)
+
 This project is a simple reverse proxy server built with Spring Boot. It forwards incoming requests to a configurable origin server and caches the responses to improve performance and reduce the load on the origin.
 
 ## Features
@@ -24,7 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 1.  **Clone the repository:**
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/Learnobug/CacheProxy
     cd new_p
     ```
 
