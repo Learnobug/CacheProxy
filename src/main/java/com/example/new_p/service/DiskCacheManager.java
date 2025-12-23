@@ -15,8 +15,14 @@ public class DiskCacheManager {
 
     private static final String CACHE_DIR = "cache-store";
 
-    public DiskCacheManager() throws IOException {
-        Files.createDirectories(Paths.get(CACHE_DIR));
+    public DiskCacheManager()  {
+        try {
+            Files.createDirectories(Paths.get(CACHE_DIR));
+        } catch (IOException e) {
+            throw new IllegalStateException(
+                    "Failed to create cache directory: " + CACHE_DIR, e
+            );
+        }
     }
 
     private Path file(String key) {
