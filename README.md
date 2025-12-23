@@ -60,3 +60,6 @@ For example, a request to `http://localhost:8080/users/1` will be forwarded to `
 *   [Spring WebFlux](https://docs.spring.io/spring-framework/docs/current/reference/html/web-reactive.html) - Used for making non-blocking requests to the origin server.
 *   [Maven](https://maven.apache.org/) - Dependency management.
 
+## Reference
+
+This project was inspired by the Caching Server project idea on [roadmap.sh](https://roadmap.sh/projects/caching-server).
